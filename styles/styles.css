@@ -17,3 +17,31 @@
 .homepage-list li {
     margin: 10px;
 }
+
+body {
+    background-color: darkgreen;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+h1,
+h3 {
+    text-align: center;
+}
+
+p,
+li {
+    font-size: 20px;
+}
+
+li {
+    margin: 10px;
+}
+
+p {
+    background-color: darkblue;
+    margin: 5px;
+}
+
+ul, ol {
+    background-color: darkred;
+}
