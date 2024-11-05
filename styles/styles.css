@@ -1,0 +1,19 @@
+#homepage-header {
+    background-color: violet;
+    color: red;
+    text-align: center;
+    height: 40px;
+}
+
+#homepage {
+    font-family:'Courier New', Courier, monospace;
+    background-color: rgb(3, 13, 46);
+}
+
+.homepage-list {
+    color: white;
+}
+
+.homepage-list li {
+    margin: 10px;
+}
