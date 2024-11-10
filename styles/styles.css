@@ -2,20 +2,39 @@
     background-color: violet;
     color: red;
     text-align: center;
-    height: 40px;
+    height: 50px;
+    padding: 10px 10px 0px;
+    width: 300px;
+    margin: 10px auto;
 }
 
 #homepage {
     font-family:'Courier New', Courier, monospace;
     background-color: rgb(3, 13, 46);
+    box-sizing: border-box;
 }
 
 .homepage-list {
     color: white;
+    padding: 20px;
+    margin: 0px;
 }
 
 .homepage-list li {
-    margin: 10px;
+    display:inline-block;
+    border: 2px solid yellow;
+    background-color:red;
+    padding: 4px;
+}
+.homepage-list li:hover {
+    background: darkred;
+
+}
+
+#homepage-list-container {
+    padding: 10px;  
+    background-color: black;
+
 }
 
 body {
